@@ -1,0 +1,163 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 23 Aug 2023, 13:42:59
+    Author     : DIANE J DALYOP
+*/
+*{
+    margin:0%;
+
+}
+header{
+    height: 180px;
+    width: 100%;
+
+}
+header img{
+    height: 150px;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 70%;
+   
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+nav {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    align-items: center;
+    align-content: flex-start;
+}
+nav a {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: 	 #ccccb3;
+    color:black;
+}
+header nav a{
+    display:flex;
+    text-decoration: none;
+
+}
+.slides img{
+    height:500px;
+    width:90%;
+    border-radius: 10px;
+    padding:10px;
+}
+
+
+.section1 {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+.text1 {
+    display: flex;
+    padding: 40px;
+    height: 400px;
+    background-color: #731537;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+hr{
+    color:white;
+    width: 800px;
+}
+
+.mainimg img {
+    width:70%;
+    height: 600px;
+}
+.mainimg {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.text1,  p{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.text1 , h1{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+   
+}
+.text1 a{
+    display: flex;
+    background-color: #731537;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+}
+/*recentprojects*/
+
+.section2{
+    padding: 100px;
+}
+.section2 .row{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.section2 .row img {
+    width:200px;
+    height:200px;
+    margin-top: 20px;
+    border-radius:50%;
+    
+}
+
+
+
+.section .row:hover{
+    transform: translateY(-10px);
+}
+
+.row p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+
+}
+.latest-projects {
+    display: flex;
+    justify-content: space-around;
+}
